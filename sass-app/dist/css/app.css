@@ -63,7 +63,8 @@ header .header-left .header-button i {
 }
 
 .first-section {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   height: 880px;
   display: flex;
 }
@@ -71,6 +72,16 @@ header .header-left .header-button i {
 .first-section .jumbotron {
   width: calc(100% / 2);
   height: 100%;
+}
+
+.first-section .jumbotron h1 {
+  padding-top: 70px;
+  font-size: 50px;
+}
+
+.first-section .jumbotron h2 {
+  padding-top: 28px;
+  font-size: 22px;
 }
 
 .first-section .jumbo-img {
