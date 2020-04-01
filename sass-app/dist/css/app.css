@@ -30,6 +30,35 @@ header {
 header .header-left {
   width: 550px;
   height: 100%;
-  background-color: green;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .header-left .head-link {
+  margin-right: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+header .header-left .solutions {
+  display: flex;
+}
+
+header .header-left .solutions p {
+  margin-right: 8px;
+}
+
+header .header-left .header-button {
+  display: flex;
+  color: blue;
+  padding: 12px 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+header .header-left .header-button i {
+  margin-right: 8px;
+  font-size: 18px;
 }
 

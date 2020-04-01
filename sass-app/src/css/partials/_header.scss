@@ -9,7 +9,30 @@ header{
     .header-left {
         width:550px;
         height: 100%;
-        background-color: green;
-
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .head-link {
+            margin-right: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .solutions {
+            display: flex;
+            p {
+                margin-right: 8px;
+            }
+        }
+        .header-button {
+            display: flex;
+            color: blue;
+            padding: 12px 10px;
+            border: 1px solid blue;
+            border-radius: 5px;
+            i {
+                margin-right: 8px;
+                font-size: 18px;
+            }
+        }
     }
 }
