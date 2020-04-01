@@ -84,6 +84,49 @@ header .header-left .header-button i {
   font-size: 22px;
 }
 
+.first-section .jumbotron .jumbo-btns {
+  margin-top: 20px;
+  width: 480px;
+  height: 50px;
+  display: flex;
+}
+
+.first-section .jumbotron .jumbo-btns .first-btn,
+.first-section .jumbotron .jumbo-btns .second-btn {
+  color: white;
+  background-color: blue;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-section .jumbotron .jumbo-btns .first-btn i,
+.first-section .jumbotron .jumbo-btns .second-btn i {
+  margin: 0 6px;
+}
+
+.first-section .jumbotron .jumbo-btns .separation {
+  margin: 32px 10px 0 10px;
+}
+
+.first-section .jumbotron .last-jumbo {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  cursor: pointer;
+  display: flex;
+}
+
+.first-section .jumbotron .last-jumbo:hover {
+  color: blue;
+}
+
+.first-section .jumbotron .last-jumbo i {
+  padding-top: 3px;
+  margin-left: 12px;
+}
+
 .first-section .jumbo-img {
   width: calc(100% / 2);
   height: 100%;

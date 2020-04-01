@@ -14,6 +14,40 @@
             padding-top: 28px;
             font-size: 22px;
         }
+        .jumbo-btns {
+            margin-top: 20px;
+            width: 480px;
+            height: 50px;
+            display: flex;
+            .first-btn, .second-btn {
+                color: $first_color;
+                background-color: blue;
+                display: flex;
+                border-radius: 5px;
+                align-items: center;
+                justify-content: center;
+                i {
+                    margin: 0 6px;
+                }
+            }
+            .separation {
+                margin: 32px 10px 0 10px;
+            }
+        }
+        .last-jumbo {
+            width: 100%;
+            height: auto;
+            margin-top: 40px;
+            cursor: pointer;
+            display: flex;
+            &:hover {
+                color: blue;
+            }
+            i {
+                padding-top: 3px;
+                margin-left: 12px;
+            }
+        }
     }
     .jumbo-img {
         width: calc(100% / 2);
