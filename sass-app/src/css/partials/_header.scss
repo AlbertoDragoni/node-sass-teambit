@@ -1,5 +1,15 @@
-header {
-    width: 100vw;
-    height: 80px;
-    background-color: $primary_color;
+header{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 1px solid #58402c;
+    background-color: $first_color;
+    display: flex;
+    justify-content: space-between;
+    .header-left {
+        width:550px;
+        height: 100%;
+        background-color: green;
+
+    }
 }

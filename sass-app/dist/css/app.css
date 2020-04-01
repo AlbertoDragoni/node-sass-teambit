@@ -1,6 +1,35 @@
-header {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* .container-fullwidth {
   width: 100vw;
-  height: 80px;
-  background-color: blue;
+  height: 800px;
+  font-family: "Open Sans", sans-serif;
+  color: #58402c;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #58402c;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .header-left {
+  width: 550px;
+  height: 100%;
+  background-color: green;
 }
 
