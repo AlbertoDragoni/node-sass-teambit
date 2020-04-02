@@ -141,14 +141,16 @@ header .header-left .header-button i {
 .second-section-container {
   width: 100%;
   margin: 0 auto;
-  height: 880px;
-  display: flex;
+  height: 2300px;
   background-color: #ffe7d2;
 }
 
 .second-section-container .second-section {
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .second-section-container .second-section h2 {
@@ -182,5 +184,22 @@ header .header-left .header-button i {
   margin-top: 40px;
   padding: 0 10px;
   font-size: 26px;
+}
+
+.second-section-container .second-section .central-img-a img {
+  margin-top: 40px;
+  width: 280px;
+}
+
+.second-section-container .second-section .linea-divisoria {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+}
+
+.second-section-container .second-section h2 {
+  margin-top: 120px;
 }
 
