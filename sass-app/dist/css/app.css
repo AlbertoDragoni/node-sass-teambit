@@ -29,12 +29,17 @@ header {
   top: 0;
 }
 
+header img {
+  margin-left: 50px;
+}
+
 header .header-left {
   width: 550px;
   height: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-left: 90px;
 }
 
 header .header-left .head-link {
@@ -53,9 +58,9 @@ header .header-left .solutions p {
 
 header .header-left .header-button {
   display: flex;
-  color: blue;
+  color: white;
   padding: 12px 10px;
-  border: 1px solid blue;
+  background-color: blue;
   border-radius: 5px;
 }
 
