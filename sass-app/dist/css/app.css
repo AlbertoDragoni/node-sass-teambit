@@ -258,3 +258,54 @@ header .header-left .header-button i {
   margin-top: 38px;
 }
 
+.third-section .second-row {
+  display: flex;
+  margin-top: 70px;
+}
+
+.third-section .second-row .third-jumbo-secrow {
+  width: calc(100% / 2);
+  padding-left: 80px;
+  margin-top: 80px;
+}
+
+.third-section .second-row .third-jumbo-secrow h2 {
+  font-size: 36px;
+}
+
+.third-section .second-row .third-jumbo-secrow p {
+  margin-top: 30px;
+  font-size: 26px;
+}
+
+.third-section .second-row .third-jumbo-secrow .third-jumbo-link {
+  display: flex;
+  color: grey;
+}
+
+.third-section .second-row .third-jumbo-secrow .third-jumbo-link p {
+  font-size: 26px;
+}
+
+.third-section .second-row .third-jumbo-secrow .third-jumbo-link:hover {
+  color: blue;
+}
+
+.third-section .second-row .third-jumbo-secrow .third-jumbo-link i {
+  padding-top: 3px;
+  margin-left: 12px;
+  margin-top: 38px;
+}
+
+.third-section .second-row .third-img-secrow {
+  width: calc(100% / 2);
+  position: relative;
+}
+
+.third-section .second-row .third-img-secrow img {
+  width: 120%;
+  margin-top: 80px;
+  position: relative;
+  right: -100px;
+}
+
