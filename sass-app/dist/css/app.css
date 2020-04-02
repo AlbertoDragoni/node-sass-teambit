@@ -137,3 +137,10 @@ header .header-left .header-button i {
   width: 570px;
 }
 
+.second-section {
+  width: 80%;
+  margin: 0 auto;
+  height: 880px;
+  display: flex;
+}
+
