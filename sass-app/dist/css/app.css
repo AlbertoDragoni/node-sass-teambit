@@ -437,3 +437,77 @@ header .header-left .header-button i {
   right: -80px;
 }
 
+.fourth-section {
+  width: 100%;
+  height: 1000px;
+  background-color: #ffe7d2;
+}
+
+.fourth-section .fourth-section-container {
+  width: 60%;
+  height: 1000px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fourth-section .fourth-section-container h2 {
+  margin-top: 30px;
+  font-size: 44px;
+}
+
+.fourth-section .fourth-section-container .card {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 660px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.fourth-section .fourth-section-container .jumbo-btns {
+  margin-top: 20px;
+  width: 480px;
+  height: 50px;
+  display: flex;
+}
+
+.fourth-section .fourth-section-container .jumbo-btns .first-btn,
+.fourth-section .fourth-section-container .jumbo-btns .second-btn {
+  color: white;
+  background-color: blue;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.fourth-section .fourth-section-container .jumbo-btns .first-btn i,
+.fourth-section .fourth-section-container .jumbo-btns .second-btn i {
+  font-size: 24px;
+  margin: 0 8px;
+}
+
+.fourth-section .fourth-section-container .jumbo-btns .separation {
+  margin: 32px 10px 0 10px;
+}
+
+.fourth-section .fourth-section-container .last-jumbo {
+  height: auto;
+  padding-top: 40px;
+  cursor: pointer;
+  display: flex;
+}
+
+.fourth-section .fourth-section-container .last-jumbo:hover {
+  color: blue;
+}
+
+.fourth-section .fourth-section-container .last-jumbo i {
+  padding-top: 3px;
+  margin-left: 12px;
+}
+
