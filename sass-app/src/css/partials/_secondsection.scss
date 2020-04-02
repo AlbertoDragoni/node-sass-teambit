@@ -1,6 +1,38 @@
-.second-section {
-    width: 80%;
+.second-section-container {
+    width: 100%;
     margin: 0 auto;
     height: 880px;
     display: flex;
+    background-color: #ffe7d2;
+    .second-section {
+        width: 80%;
+        margin: 0 auto;
+        h2 {
+            font-size: 38px;
+            text-align: center;
+            margin-top: 70px;
+        }
+        .second-jumbotron-a {
+            margin-top: 50px;
+            display: flex;
+            .jumboimg {
+                width: calc(100% / 3);
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    margin-top: 25px;
+                    height: 120px;
+                    object-fit: contain;
+                }
+                p {
+                    text-align: center;
+                    margin-top: 40px;
+                    padding: 0 10px;
+                    font-size: 26px;
+                }
+            }
+        }
+    }
 }

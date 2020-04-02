@@ -65,7 +65,7 @@ header .header-left .header-button i {
 .first-section {
   width: 80%;
   margin: 0 auto;
-  height: 880px;
+  height: 650px;
   display: flex;
 }
 
@@ -103,7 +103,8 @@ header .header-left .header-button i {
 
 .first-section .jumbotron .jumbo-btns .first-btn i,
 .first-section .jumbotron .jumbo-btns .second-btn i {
-  margin: 0 6px;
+  font-size: 24px;
+  margin: 0 8px;
 }
 
 .first-section .jumbotron .jumbo-btns .separation {
@@ -137,10 +138,49 @@ header .header-left .header-button i {
   width: 570px;
 }
 
-.second-section {
-  width: 80%;
+.second-section-container {
+  width: 100%;
   margin: 0 auto;
   height: 880px;
   display: flex;
+  background-color: #ffe7d2;
+}
+
+.second-section-container .second-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.second-section-container .second-section h2 {
+  font-size: 38px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.second-section-container .second-section .second-jumbotron-a {
+  margin-top: 50px;
+  display: flex;
+}
+
+.second-section-container .second-section .second-jumbotron-a .jumboimg {
+  width: calc(100% / 3);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-section-container .second-section .second-jumbotron-a .jumboimg img {
+  margin-top: 25px;
+  height: 120px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.second-section-container .second-section .second-jumbotron-a .jumboimg p {
+  text-align: center;
+  margin-top: 40px;
+  padding: 0 10px;
+  font-size: 26px;
 }
 
