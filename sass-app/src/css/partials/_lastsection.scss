@@ -1,0 +1,102 @@
+.last-section {
+    width: 100%;
+    height: 500px;
+    background-color: $first_color;
+    .last-section-container {
+        width: 1000px;
+        height: 600px;
+        margin: 0 auto;
+        margin-top: 70px;
+        display: flex;
+        .last-bit {
+            width: 350px;
+            height: 200px;
+            display: flex;
+            p {
+                margin-top: 40px;
+                font-size: 20px;
+                margin-left: 20px;
+                span {
+                    color: blue;
+                    cursor: pointer;
+                }
+            }
+            img {
+                width: 70px;
+            }
+        }
+        .last-credits {
+            width: 650px;
+            height: 100%;
+            display: flex;
+            .clm {
+                width: 130px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+                margin-right: 10px;
+            }
+            .first-clm {
+                h3 {
+                    font-size: 20px;
+                    margin-left: 16px;
+                }
+                a {
+                    margin-left: 16px;
+                    margin-top: 15px;
+                    font-size: 15px;
+                    text-decoration: none;
+                    color: #58402c;
+                }
+            }
+            .second-clm {
+                h3 {
+                    font-size: 20px;
+                }
+                a {
+                    margin-top: 15px;
+                    font-size: 15px;
+                    text-decoration: none;
+                    color: #58402c;
+                }
+            }
+            .third-clm {
+                h3 {
+                    font-size: 20px;
+                }
+                a {
+                    margin-top: 15px;
+                    font-size: 15px;
+                    text-decoration: none;
+                    color: #58402c;
+                }
+            }
+            .fourth-clm {
+                h3 {
+                    font-size: 20px;
+                }
+                a {
+                    margin-top: 15px;
+                    font-size: 15px;
+                    text-decoration: none;
+                    color: #58402c;
+                }
+            }
+            .fifth-clm {
+                h3 {
+                    font-size: 20px;
+                }
+                a {
+                    margin-top: 15px;
+                    font-size: 15px;
+                    text-decoration: none;
+                    color: #58402c;
+                    span {
+                        margin-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

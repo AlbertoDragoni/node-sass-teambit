@@ -19,7 +19,7 @@
 
 header {
   width: 100%;
-  height: 80px;
+  height: 70px;
   margin: 0 auto;
   border-bottom: 1px solid #58402c;
   background-color: white;
@@ -547,5 +547,116 @@ header .header-left .header-button i {
 .fourth-section .fourth-section-container .last-jumbo i {
   padding-top: 3px;
   margin-left: 12px;
+}
+
+.last-section {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
+
+.last-section .last-section-container {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+}
+
+.last-section .last-section-container .last-bit {
+  width: 350px;
+  height: 200px;
+  display: flex;
+}
+
+.last-section .last-section-container .last-bit p {
+  margin-top: 40px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.last-section .last-section-container .last-bit p span {
+  color: blue;
+  cursor: pointer;
+}
+
+.last-section .last-section-container .last-bit img {
+  width: 70px;
+}
+
+.last-section .last-section-container .last-credits {
+  width: 650px;
+  height: 100%;
+  display: flex;
+}
+
+.last-section .last-section-container .last-credits .clm {
+  width: 130px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.last-section .last-section-container .last-credits .first-clm h3 {
+  font-size: 20px;
+  margin-left: 16px;
+}
+
+.last-section .last-section-container .last-credits .first-clm a {
+  margin-left: 16px;
+  margin-top: 15px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #58402c;
+}
+
+.last-section .last-section-container .last-credits .second-clm h3 {
+  font-size: 20px;
+}
+
+.last-section .last-section-container .last-credits .second-clm a {
+  margin-top: 15px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #58402c;
+}
+
+.last-section .last-section-container .last-credits .third-clm h3 {
+  font-size: 20px;
+}
+
+.last-section .last-section-container .last-credits .third-clm a {
+  margin-top: 15px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #58402c;
+}
+
+.last-section .last-section-container .last-credits .fourth-clm h3 {
+  font-size: 20px;
+}
+
+.last-section .last-section-container .last-credits .fourth-clm a {
+  margin-top: 15px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #58402c;
+}
+
+.last-section .last-section-container .last-credits .fifth-clm h3 {
+  font-size: 20px;
+}
+
+.last-section .last-section-container .last-credits .fifth-clm a {
+  margin-top: 15px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #58402c;
+}
+
+.last-section .last-section-container .last-credits .fifth-clm a span {
+  margin-left: 8px;
 }
 
