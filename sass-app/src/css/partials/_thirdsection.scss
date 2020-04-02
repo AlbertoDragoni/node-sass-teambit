@@ -1,0 +1,43 @@
+.third-section {
+    width: 100%;
+    height: 3000px;
+    .first-row {
+        display: flex;
+        .third-img {
+            width: calc(100% / 2);
+            position: relative;
+            img {
+                width: 120%;
+                margin-top: 80px;
+                position: relative; left: -100px;
+            }
+        }
+        .third-jumbo {
+            width: calc(100% / 2);
+            padding-left: 80px;
+            margin-top: 80px;
+            h2 {
+                font-size: 36px;
+            }
+            p {
+                margin-top: 30px;
+                font-size: 26px;
+            }
+            .third-jumbo-link {
+                display: flex;
+                color: grey;
+                p {
+                    font-size: 26px;
+                }
+                &:hover {
+                    color: blue;
+                }
+                i {
+                    padding-top: 3px;
+                    margin-left: 12px;
+                    margin-top: 38px;
+                }
+            }
+        }
+    }
+}

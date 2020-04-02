@@ -203,3 +203,58 @@ header .header-left .header-button i {
   margin-top: 120px;
 }
 
+.third-section {
+  width: 100%;
+  height: 3000px;
+}
+
+.third-section .first-row {
+  display: flex;
+}
+
+.third-section .first-row .third-img {
+  width: calc(100% / 2);
+  position: relative;
+}
+
+.third-section .first-row .third-img img {
+  width: 120%;
+  margin-top: 80px;
+  position: relative;
+  left: -100px;
+}
+
+.third-section .first-row .third-jumbo {
+  width: calc(100% / 2);
+  padding-left: 80px;
+  margin-top: 80px;
+}
+
+.third-section .first-row .third-jumbo h2 {
+  font-size: 36px;
+}
+
+.third-section .first-row .third-jumbo p {
+  margin-top: 30px;
+  font-size: 26px;
+}
+
+.third-section .first-row .third-jumbo .third-jumbo-link {
+  display: flex;
+  color: grey;
+}
+
+.third-section .first-row .third-jumbo .third-jumbo-link p {
+  font-size: 26px;
+}
+
+.third-section .first-row .third-jumbo .third-jumbo-link:hover {
+  color: blue;
+}
+
+.third-section .first-row .third-jumbo .third-jumbo-link i {
+  padding-top: 3px;
+  margin-left: 12px;
+  margin-top: 38px;
+}
+
