@@ -18,13 +18,15 @@
 }
 
 header {
-  width: 80%;
-  height: 100px;
+  width: 100%;
+  height: 80px;
   margin: 0 auto;
   border-bottom: 1px solid #58402c;
   background-color: white;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
 }
 
 header .header-left {
@@ -65,6 +67,7 @@ header .header-left .header-button i {
 .first-section {
   width: 80%;
   margin: 0 auto;
+  margin-top: 40px;
   height: 650px;
   display: flex;
 }
@@ -447,7 +450,6 @@ header .header-left .header-button i {
   width: 60%;
   height: 1000px;
   margin: 0 auto;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -462,9 +464,45 @@ header .header-left .header-button i {
   margin: 0 auto;
   margin-top: 40px;
   width: 660px;
-  height: 500px;
+  height: 600px;
   background-color: white;
   border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.fourth-section .fourth-section-container .card .card-scritta p {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.fourth-section .fourth-section-container .card .card-credits {
+  display: flex;
+}
+
+.fourth-section .fourth-section-container .card .card-credits .credits-img {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.fourth-section .fourth-section-container .card .card-credits .credits-img img {
+  margin-right: 15px;
+  width: 50px;
+}
+
+.fourth-section .fourth-section-container .card .card-credits .credits-quote {
+  margin-top: 33px;
+  margin-left: 20px;
+}
+
+.fourth-section .fourth-section-container .card .card-credits .credits-quote h4 {
+  font-size: 15px;
+  color: blue;
+}
+
+.fourth-section .fourth-section-container .card .card-credits .credits-quote p {
+  font-size: 12px;
 }
 
 .fourth-section .fourth-section-container .jumbo-btns {
